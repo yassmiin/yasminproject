@@ -11,21 +11,48 @@
 <!--Secton start-->
 <hr>
 <form action="#" method="get">
+    <fieldset >
+        <legend>Personal Information</legend>
+       
+        <p>
+        <label>
+            Full Name: 
+            <input type="text" name="txtFullName" required> 
+    
+        </label>
+    </p>
+       <p> 
+        <label>
+            Birthdate: 
+            <input type="date" name="txtBirthDate">
+            
+        </label>
+    </p>
     <p>
-        <label>Full Name:
-            <input type="text" name="txtname">
+        <label>
+            Gender: 
+            <input type="radio" name="gender" value="male">
+            Male
+            <input type="radio" name="gender" value="female">
+            Female
+        </label>
+    </p>
+    </fieldset>
+    
+  
+<fieldset>
+    <legend>Contact information</legend>
+    <p> 
+        <label>
+            Email:
+            <input type='email' name="txtEmail">
+        </label>
 
-        </label>
     </p>
     <p>
-        <label>Birthdate:
-            <input type="date" name="txtBD">
-        </label>
-    </p>
-    <p>
-        <label> Gender:
-            <input type="radio" name="Gender" value="male">Male
-            <input type="radio" name="Gender" value="female">Femele
+        <label>
+            Address:
+            <textarea rows="5" cols="100" name="txtAddress"></textarea>
         </label>
     </p>
     <p>
@@ -39,6 +66,8 @@
          </label>
          <label submit>
     </p>
+</fieldset>
+
 </form>
 <hr>
 <!--Secton End-->
