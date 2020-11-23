@@ -1,7 +1,73 @@
-h1{
+/*h1
+/*{
     color: red;text-align: center;
     font-family: 'Times New Roman',Times ,serif;
 }
 body{
     background-color: rosybrown;
+}*/
+u1{
+    list-style-type: none;
+    border: 1px solid #e7e7e7;
+    background-color:#f7f7;
+    overflow:hidden;
 }
+
+li{
+    float:left;
+}
+
+.nav-right{
+    float:right;
+}
+a{
+    text-decoration:none;
+    color: #000088;
+}
+li a{
+    display:block;
+    color:#666;
+    padding-bottom: 10px;
+    padding-right:14px ;
+    padding-left:14px;
+    padding-top:10px;
+    
+}
+li a:hover{
+    background-color: lightblue;
+}
+li a.active{
+    background-color: lightseagreen;
+    color:white;
+}
+div{
+    border:5px;
+    border-style: dotted;
+    border-radius:20px;
+    box-shadow:-10px 10px 5px dimgray;
+    background-image:radial-grandient(white,grey);
+
+}
+table{
+    widows: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background-color:lightgreen;
+    color:wheat;
+
+}
+thead tr{
+    text-align:center;
+
+}
+tbody tr:nth-child(odd){
+    background-color: lightpink;
+}
+
+
+
+
+
+
+
